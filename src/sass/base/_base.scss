@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this define what one rem is
+  font-size: 62.5%; // 1rem = 10px ; 10px/16px = 62.5%
+
+  // @include respond(tab-land) {
+  //   font-size: 56.25%; //12px
+  // }
+  // @include respond(tab-port) {
+  //   font-size: 50%; //9x
+  // }
+  // @include respond(big-desktop) {
+  //   font-size: 80%; // 20px
+  // }
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  padding: 3rem; /* n'est pas inhérited */
+}

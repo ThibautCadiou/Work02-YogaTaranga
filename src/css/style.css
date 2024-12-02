@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*
+0 - 600px     : Mobile
+600 - 900px   : Tablet portrait
+900 - 1200px  : Tablet Landscape
+1200 - 1800px : Desktop (normal style)
+1800px +      : Large Desktop
+*/
+/* 
+$breakpoints pour les différents appareils
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  padding: 3rem;
+  /* n'est pas inhérited */ }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
