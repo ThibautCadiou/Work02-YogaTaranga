@@ -11,21 +11,40 @@
 // }
 
 body {
-  // font-family: 'Lato', sans-serif;
-  // font-weight: 400;
-  // font-size: 1.6rem;
-  // line-height: 1.7;
-  // color: $my-grey;
+  font-family: 'Afacad', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $text-color;
 }
 
-.heading-primary {
+.heading-titre {
+  font-size: 8rem;
+  font-weight: 800;
 }
 
-.heading-secondary {
+.heading-section {
+  font-size: 5.5rem;
+  font-weight: 800;
 }
 
-.heading-tertiary {
+.heading-infos {
+  font-size: 4rem;
+  font-weight: 600;
 }
 
-.paragraph {
+.heading-sous-titre {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.heading-menu-contenu,
+.footer-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.heading-menu-select {
+  font-size: 2.4rem;
+  font-weight: 800;
 }

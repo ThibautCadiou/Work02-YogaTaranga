@@ -1,9 +1,17 @@
 // COLORS
-$background: #f3e5d8;
+$text-color: black;
 
-$card-primary: #fff7fc;
-$card-heading-primary: #6a344b;
-$card-heading-secondary: #5f5553;
+$text-primary: black;
+$text-secondary: rgba(#000000, 0.6);
+$text-background: rgba(#fafcfb, 1);
 
-$heading-primary: #2d2c2a;
-$heading-secondary: #724c3f;
+$meditation-text: rgba(#faeee0, 1);
+$meditation-background: rgba(#faeee0, 0.3);
+
+$yoga-text: rgba(#cedde9, 1);
+$yoga-background: rgba(#cedde9, 0.3);
+
+$footer-title: rgba(#2d231d, 01);
+
+// MARGIN & Padding
+$margin-top-page: 5rem;

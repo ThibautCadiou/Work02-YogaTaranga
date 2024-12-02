@@ -24,5 +24,12 @@ html {
 body {
   box-sizing: border-box;
   position: relative;
-  padding: 3rem; /* n'est pas inhérited */
+  padding: 0rem; /* n'est pas inhérited */
+}
+
+.btn {
+  display: flex;
+  border-radius: 50%;
+  border: solid black 1px;
+  border-radius: 2rem;
 }
