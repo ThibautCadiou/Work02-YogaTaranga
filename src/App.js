@@ -40,17 +40,47 @@ export default function App() {
       </header>
       <main className='main'>
         <section className='activites'>
-          {' '}
-          <h2 className='heading-section'>Activités</h2>{' '}
+          {/* <h2 className='heading-section u-center-text'>Activités</h2> */}
+          <div className='activites-left'>
+            <div className='activites-left__top'>
+              <div className='activites__icon'>
+                <img src='./icons/logo-yoga-01.svg' alt='icone de yoga' />
+              </div>
+              <p className='activites-left__top-text activities-title'>yoga</p>
+            </div>
+            <div className='activites-left__middle-text common-text'>
+              Nous vous proposons de découvrir la pratique du <span>Yoga tibétain</span> au travers
+              de nos <span>cours hebdomadaires</span> ou bien de nos <span>retraites</span>.
+            </div>
+            <button className='btn btn--yoga btn--white'>Plus d'infos par ici !</button>
+          </div>
+          <div className='activites-left'>
+            <div className='activites-left__top'>
+              <div className='activites__icon'>
+                <img src='./icons/logo-yoga-02.svg' alt='icone de yoga' />
+              </div>
+              <p className='activites-left__top-text activities-title'>meditation</p>
+            </div>
+            <div className='activites-left__middle-text common-text'>
+              Venez découvrir la pratique de la <span>méditation Chamatha</span> et retrouver le
+              calme mental, au travers de 5 <span>ateliers</span> dans l&apos;année.
+            </div>
+            <button className='btn btn--yoga btn--white'>Plus d'infos par ici !</button>
+          </div>
         </section>
-        <section className='actualites'>
+        <section className='actualites u-center-text'>
           <h2 className='heading-section'>Actualités</h2>
+          <div className='actualites__container'>
+            <div className='actualites__items actualites__items--1'></div>
+            <div className='actualites__items actualites__items--2'></div>
+            <div className='actualites__items actualites__items--3'></div>
+          </div>
         </section>
-        <section className='decouvrir'>
+        <section className='decouvrir u-center-text'>
           <h2 className='heading-section'>Découvrir l'association</h2>
         </section>
         <section className='articles'>
-          <h2 className='heading-section'>Articles</h2>
+          <h2 className='heading-section u-center-text'>Articles</h2>
         </section>
       </main>
 
@@ -73,14 +103,21 @@ export default function App() {
           <p className='footer-text'>06 50 92 59 32</p>
         </div>
 
-        <button className='footer__btn btn'>
+        <div className='contact__mail'>
+          <div className='footer__icon'>
+            <img src='./icons/mail.svg' alt='icône de lenvoi d un mail' />
+          </div>
+          <p className='footer-text'>yoga.taranga@wanadoo.fr</p>
+        </div>
+
+        {/* <button className='footer__btn btn'>
           <img
             src='./icons/mail.svg'
             alt='icône pour indiquer le mail de lassociation yoga taranga'
             className='footer__btn--logo'
           />
           <p className='footer-text'>E-mail</p>
-        </button>
+        </button> */}
       </footer>
     </div>
   );

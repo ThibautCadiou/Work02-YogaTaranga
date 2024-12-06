@@ -1,0 +1,20 @@
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 2.6rem;
+  background-color: $yoga-background;
+  border-radius: 200px;
+
+  &--white {
+    background-color: white !important;
+  }
+
+  &--yoga {
+    font-weight: 500;
+    font-family: 'Afacad', serif;
+    padding: 0.9rem 1.8rem;
+    font-size: 2.4rem;
+  }
+}

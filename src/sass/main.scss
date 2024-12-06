@@ -7,8 +7,12 @@
 @import 'base/typography';
 @import 'base/utilities';
 
-// @import 'components/card';
+@import 'components/button';
 
+@import 'layout/activities';
+@import 'layout/actualites';
+@import 'layout/articles';
+@import 'layout/decouvrir';
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';

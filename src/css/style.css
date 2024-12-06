@@ -59,6 +59,7 @@ body {
   font-weight: 600; }
 
 .heading-menu-contenu,
+.common-text,
 .footer-text {
   font-size: 2.4rem;
   font-weight: 400; }
@@ -66,6 +67,14 @@ body {
 .heading-menu-select {
   font-size: 2.4rem;
   font-weight: 800; }
+
+span {
+  font-weight: 600; }
+
+.activities-title {
+  font-size: 3rem;
+  font-weight: 400 !important;
+  text-transform: uppercase; }
 
 .u-center-text {
   text-align: center !important; }
@@ -79,6 +88,41 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 2.6rem;
+  background-color: rgba(206, 221, 233, 0.3);
+  border-radius: 200px; }
+  .btn--white {
+    background-color: white !important; }
+  .btn--yoga {
+    font-weight: 500;
+    font-family: 'Afacad', serif;
+    padding: 0.9rem 1.8rem;
+    font-size: 2.4rem; }
+
+.activites {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .activites__icon {
+    height: 8rem;
+    margin-bottom: 2.4rem; }
+  .activites-left {
+    justify-items: center;
+    padding: 9rem;
+    gap: 4rem; }
+    .activites-left__top {
+      display: block;
+      text-align: center;
+      margin-bottom: 4rem; }
+    .activites-left__middle-text {
+      text-align: center;
+      margin-bottom: 4rem;
+      padding: 0rem 2.3rem; }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -91,7 +135,8 @@ body {
   .footer__icon {
     display: flex;
     justify-content: center;
-    margin-bottom: 2.4rem; }
+    margin-bottom: 1rem;
+    height: 3.5rem; }
   .footer p {
     vertical-align: center;
     margin-left: 10px;
@@ -141,7 +186,8 @@ body {
   flex-direction: column; }
   .header__main-title {
     font-size: 8rem;
-    font-weight: 700; }
+    font-weight: 700;
+    text-transform: uppercase; }
   .header__main-subtitle {
     font-size: 3.2rem;
     color: rgba(0, 0, 0, 0.666);
