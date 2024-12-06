@@ -26,6 +26,7 @@ body {
 .heading-section {
   font-size: 5.5rem;
   font-weight: 800;
+  color: $footer-title;
 }
 
 .heading-infos {
@@ -58,4 +59,9 @@ span {
   font-size: 3rem;
   font-weight: 400 !important;
   text-transform: uppercase;
+}
+
+button {
+  font-family: 'Afacad', serif;
+  font-weight: 400;
 }

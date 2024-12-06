@@ -53,7 +53,8 @@ body {
 
 .heading-section {
   font-size: 5.5rem;
-  font-weight: 800; }
+  font-weight: 800;
+  color: #2d231d; }
 
 .heading-infos {
   font-size: 4rem;
@@ -80,6 +81,10 @@ span {
   font-size: 3rem;
   font-weight: 400 !important;
   text-transform: uppercase; }
+
+button {
+  font-family: 'Afacad', serif;
+  font-weight: 400; }
 
 .u-center-text {
   text-align: center !important; }
@@ -130,7 +135,8 @@ span {
       padding: 0rem 2.3rem; }
 
 .actualites {
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
   .actualites__title {
     margin-bottom: 6rem; }
   .actualites__container {
@@ -187,6 +193,35 @@ span {
 
 .color-2 {
   background-color: #cedde9 !important; }
+
+.decouvrir__container {
+  position: relative;
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../public/img/home-01.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 70rem; }
+
+.decouvrir__etiquette {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 5rem 3.5rem 5rem 4rem;
+  position: absolute;
+  top: 0;
+  right: 4rem;
+  width: 40rem;
+  height: 90%;
+  background: #fafafa; }
+  .decouvrir__etiquette--btn {
+    margin-top: 3rem;
+    width: fit-content;
+    align-self: center;
+    font-size: 2.4rem;
+    padding: 0.8rem 1.7rem;
+    background-color: #fafafa;
+    border: 2px black solid; }
 
 .footer {
   display: flex;
