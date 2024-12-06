@@ -1,0 +1,88 @@
+.actualites {
+  margin-top: 8rem;
+
+  &__title {
+    margin-bottom: 6rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 43rem;
+    gap: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  &__items {
+    // width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+
+    &--1 {
+      background-color: $meditation-background-2;
+    }
+
+    &--2 {
+      background-color: $yoga-text !important;
+    }
+
+    &--3 {
+      background-color: $meditation-background-2;
+    }
+  }
+}
+
+.actualite {
+  position: relative;
+
+  &__img {
+    opacity: 0.8;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    // height: calc(100% - 18rem);
+  }
+
+  &__tag {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    padding: 0rem 1.5rem;
+    background-color: $meditation-text;
+    border-radius: 200px;
+  }
+
+  &__title {
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    justify-self: left;
+  }
+
+  &__subtitle {
+    font-size: 2.4rem;
+    padding-left: 2rem;
+    justify-self: left;
+    font-weight: 400;
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2.4rem;
+    background-color: $meditation-background-2 !important;
+    font-weight: 400;
+
+    padding: 0.8rem 1.6rem;
+
+    &--2 {
+      background-color: $yoga-text !important;
+    }
+  }
+}
+
+.color-2 {
+  background-color: $yoga-text !important;
+}

@@ -35,6 +35,11 @@ body {
   border: solid black 1px;
   border-radius: 2rem; }
 
+.tag {
+  font-size: 2.4rem;
+  color: black;
+  opacity: 0.8; }
+
 body {
   font-family: 'Afacad', serif;
   font-weight: 400;
@@ -106,7 +111,8 @@ span {
 
 .activites {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fafcfb; }
   .activites__icon {
     height: 8rem;
     margin-bottom: 2.4rem; }
@@ -122,6 +128,65 @@ span {
       text-align: center;
       margin-bottom: 4rem;
       padding: 0rem 2.3rem; }
+
+.actualites {
+  margin-top: 8rem; }
+  .actualites__title {
+    margin-bottom: 6rem; }
+  .actualites__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 43rem;
+    gap: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .actualites__items {
+    overflow: hidden;
+    border-radius: 1rem; }
+    .actualites__items--1 {
+      background-color: rgba(250, 238, 224, 0.8); }
+    .actualites__items--2 {
+      background-color: #cedde9 !important; }
+    .actualites__items--3 {
+      background-color: rgba(250, 238, 224, 0.8); }
+
+.actualite {
+  position: relative; }
+  .actualite__img {
+    opacity: 0.8;
+    height: 60%;
+    width: 100%;
+    object-fit: cover; }
+  .actualite__tag {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    padding: 0rem 1.5rem;
+    background-color: #faeee0;
+    border-radius: 200px; }
+  .actualite__title {
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    justify-self: left; }
+  .actualite__subtitle {
+    font-size: 2.4rem;
+    padding-left: 2rem;
+    justify-self: left;
+    font-weight: 400; }
+  .actualite__btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2.4rem;
+    background-color: rgba(250, 238, 224, 0.8) !important;
+    font-weight: 400;
+    padding: 0.8rem 1.6rem; }
+    .actualite__btn--2 {
+      background-color: #cedde9 !important; }
+
+.color-2 {
+  background-color: #cedde9 !important; }
 
 .footer {
   display: flex;
