@@ -1,7 +1,7 @@
 export default function Decouvrir() {
   return (
-    <section className='decouvrir '>
-      <h2 className='heading-section u-margin-bottom-big'>Découvrir l'association</h2>
+    <section className='decouvrir  '>
+      <h2 className='heading-section u-margin-bottom-big u-center-text'>Découvrir l'association</h2>
       <div className='decouvrir__container common-text'>
         <div className='decouvrir__etiquette'>
           <p>

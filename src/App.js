@@ -15,7 +15,20 @@ export default function App() {
         <Decouvrir />
 
         <section className='articles'>
-          <h2 className='heading-section u-center-text'>Articles</h2>
+          <div className='articles__top'>
+            <h2 className='heading-section u-center-text u-margin-top-big u-margin-bottom-big'>
+              Articles
+            </h2>
+
+            <a className='articles__link' href='/test' class>
+              Voir plus &rarr;
+            </a>
+          </div>
+          <div className='articles-container'>
+            <div className='article'></div>
+            <div className='article'></div>
+            <div className='article'></div>
+          </div>
         </section>
       </main>
       <Footer />
