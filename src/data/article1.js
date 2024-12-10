@@ -1,5 +1,6 @@
 export const articles = [
   {
+    id: 1,
     readingTime: 10,
     name: 'Chandra Yoga',
     text: 'Le voyage à la lumière de la lune',
@@ -7,6 +8,7 @@ export const articles = [
     src: './img/home-07.jpg',
   },
   {
+    id: 2,
     readingTime: 7,
     name: 'Siddhas tamoul',
     text: 'La tradition au coeur du yoga',
@@ -19,5 +21,6 @@ export const articles = [
     text: 'Une pratique non chronophage pour gérer le stress',
     tags: ['Yoga', 'Bienfaits'],
     src: './img/home-06.jpg',
+    id: 3,
   },
 ];

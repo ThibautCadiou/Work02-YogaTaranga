@@ -10,6 +10,7 @@ export default function App() {
   return (
     <div className='App'>
       <Header />
+
       <main className='main'>
         <Activites />
         <Actualites />
@@ -25,9 +26,9 @@ export default function App() {
           </div>
 
           <div className='articles__container'>
-            <Article article={articles[0]} />
-            <Article article={articles[1]} />
-            <Article article={articles[2]} />
+            {articles.map((article) => (
+              <Article article={article} key={article.id} />
+            ))}
           </div>
         </section>
       </main>
