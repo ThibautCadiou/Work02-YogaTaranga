@@ -1,0 +1,53 @@
+.articles {
+  &__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    position: relative;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  &__title {
+  }
+
+  &__link,
+  &__link:visited {
+    position: absolute;
+
+    top: 50%;
+    right: 20rem;
+    transform: translateY(-50%);
+
+    text-decoration: none;
+
+    display: inline-block;
+    color: $footer-title;
+    font-size: 2.4rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.article {
+  &__top-tag {
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+}
