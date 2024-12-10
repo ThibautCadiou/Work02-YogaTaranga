@@ -27,6 +27,13 @@
     display: inline-block;
     color: $footer-title;
     font-size: 2.4rem;
+
+    transition: all 0.1s;
+
+    &:hover {
+      transform: translateY(-53%);
+      font-weight: 800;
+    }
   }
 
   &__container {
@@ -44,6 +51,19 @@
   overflow: hidden;
   background-color: $random-1;
   height: 50.5rem;
+
+  transition: all 0.2s;
+  box-shadow: 0 1.5rem 2rem rgba($color: #000000, $alpha: 0.3);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1.5rem 2rem rgba($color: #000000, $alpha: 0.15);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 0.5rem rgba($color: #000000, $alpha: 0.5);
+  }
 
   &__top {
     height: 30rem;
@@ -107,6 +127,8 @@
     justify-items: flex-start;
     flex-grow: 1;
     align-items: flex-end;
+    margin-bottom: 1rem;
+    gap: 1rem;
   }
 
   &__tag--item {
