@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Yoga from './pages/Yoga';
-// import { Article } from './components/Article';
 import Articles from './pages/Articles';
 import Meditation from './pages/Meditation';
 import QuiSommesNous from './pages/QuiSommesNous';
