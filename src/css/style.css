@@ -45,6 +45,9 @@ body {
   color: black;
   opacity: 0.8; }
 
+.active {
+  font-weight: 800; }
+
 body {
   font-family: 'Afacad', serif;
   font-weight: 400;
@@ -398,7 +401,7 @@ button {
       font-weight: 700; }
 
 .header {
-  height: 100vh;
+  height: calc(100vh - 15rem);
   position: relative;
   display: flex;
   flex-direction: column; }

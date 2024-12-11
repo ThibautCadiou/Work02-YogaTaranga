@@ -1,29 +1,31 @@
+import { NavLink } from 'react-router-dom';
+
 export default function Navigation() {
   return (
     <nav className='navigation'>
       <img src='/img/Logo.svg' alt='test' className='navigation__icon' />
       <ul className='navigation__list heading-menu-contenu'>
         <li className='navigation__item navigation__item--1'>
-          <a href='/home'>Accueil</a>
+          <NavLink to='/'>Accueil</NavLink>
         </li>
         <li className='navigation__item navigation__item--2'>
-          <a href='/yoga'>Yoga</a>
+          <NavLink to='/yoga'>Yoga</NavLink>
         </li>
         <li className='navigation__item navigation__item--3'>
-          <a href='/meditation'>Méditation</a>
+          <NavLink to='/meditation'>Méditation</NavLink>
         </li>
         <li className='navigation__item navigation__item--4'>
-          <a href='stages-and-retreat'>Stages & retraites</a>
+          <NavLink to='/stages-et-retraites'>Stages & retraites</NavLink>
         </li>
         <li className='navigation__item navigation__item--5'>
-          <a href='/the-association'>Qui sommes-nous?</a>
+          <NavLink to='/qui-sommes-nous'>Qui sommes-nous?</NavLink>
         </li>
         <li className='navigation__item navigation__item--6'>
-          <a href='/articles'>Articles</a>
+          <NavLink to='/articles'>Articles</NavLink>
         </li>
-        <li className='navigation__item navigation__item--7'>
-          <a href='/contact'>Contact</a>
-        </li>
+        {/* <li className='navigation__item navigation__item--7'>
+          <NavLink to='/contact'>Contact</NavLink>
+        </li> */}
       </ul>
     </nav>
   );

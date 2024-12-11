@@ -1,14 +1,15 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Activites from './components/Activites';
-import Actualites from './components/Actualites';
-import Decouvrir from './components/Decouvrir';
-import { articles } from './data/article1';
-import { Article } from './components/Article';
+import Activites from '../components/Activites';
+import Actualites from '../components/Actualites';
+import Decouvrir from '../components/Decouvrir';
+import { articles } from '../data/article1';
+import { Article } from '../components/Article';
+import Navigation from '../components/Navigation';
+import Header from '../components/Header';
 
-export default function App() {
+export default function Home() {
   return (
-    <div className='App'>
+    <>
+      <Navigation />
       <Header />
 
       <main className='main'>
@@ -32,7 +33,6 @@ export default function App() {
           </div>
         </section>
       </main>
-      <Footer />
-    </div>
+    </>
   );
 }
