@@ -9,5 +9,3 @@ export default function Banner(props) {
     </div>
   );
 }
-
-//'banner__image ${props.classType}

@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
 import Home from './pages/Home';
 import Yoga from './pages/Yoga';
 import Articles from './pages/Articles';
@@ -22,8 +21,6 @@ export default function App() {
           <Route path='*' element={<PageError />} />
         </Routes>
       </BrowserRouter>
-
-      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function QuiSommesNous() {
     <div>
       <Navigation />
       <Banner src='./img/stage-05.jpg' classType='banner__image--center' />
-      Qui sommes nous ?
+      Qui sommes nous !?
     </div>
   );
 }

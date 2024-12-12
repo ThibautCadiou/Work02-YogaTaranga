@@ -2,3 +2,60 @@
   //   display: flex;
   //   margin: auto;
 }
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 2.4rem;
+  }
+
+  &__icon {
+    width: 12.5rem;
+    margin-bottom: 4rem;
+
+    & img {
+      width: 100%;
+    }
+
+    &--line {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__text {
+    width: 70%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  &__button {
+    margin-top: 2rem;
+    padding: 0.4rem 1.6rem;
+    margin-bottom: 10rem;
+  }
+}
+
+.creneaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    margin-bottom: 8rem;
+  }
+}
+
+.container {
+  padding: 10rem 5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  grid-template-rows: 70rem;
+}
+
+.seance {
+  border: solid 2px blue;
+}
