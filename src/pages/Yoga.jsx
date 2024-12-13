@@ -1,9 +1,9 @@
 import Banner from '../components/Banner';
 import { seances } from '../data/seances';
 
-import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import { Seance } from '../components/Seance';
+import Footer02 from '../components/Footer02';
 
 export default function Yoga() {
   return (
@@ -46,7 +46,7 @@ export default function Yoga() {
         </div>
       </main>
 
-      <Footer />
+      <Footer02 />
     </>
   );
 }

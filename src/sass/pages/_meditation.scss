@@ -1,0 +1,68 @@
+.objectif {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 5rem;
+
+  width: 100%;
+  margin-top: 10rem;
+  padding: 5rem 0rem 5rem 7.5rem;
+
+  &__objectif {
+    &--title {
+      line-height: 2;
+      margin-bottom: 2rem;
+    }
+
+    &--text {
+      opacity: 0.6 !important;
+
+      line-height: 1.2;
+    }
+  }
+}
+
+.meditation {
+  &__title {
+    margin-bottom: 2rem !important;
+  }
+  &__down-arrow {
+    margin-bottom: 10rem;
+  }
+}
+
+.ateliers {
+  text-align: center;
+  margin-bottom: 10rem;
+  width: 100%;
+
+  &__title {
+    margin-bottom: 5rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35rem 35rem;
+    gap: 5rem;
+  }
+
+  &__item {
+    display: grid;
+    height: 100%;
+    border: solid red 2px;
+
+    &--1 {
+    }
+
+    &--2 {
+    }
+
+    &--3 {
+    }
+
+    &--4 {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+    }
+  }
+}

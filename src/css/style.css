@@ -63,6 +63,8 @@ body {
   font-size: 5.5rem;
   font-weight: 800;
   color: #2d231d; }
+  .heading-section--upercase {
+    text-transform: uppercase; }
 
 .heading-infos {
   font-size: 4rem;
@@ -70,6 +72,10 @@ body {
 
 .heading-sous-titre {
   font-size: 3.2rem;
+  font-weight: 600; }
+
+.heading-sous-sous-titre {
+  font-size: 3.6rem;
   font-weight: 600; }
 
 .heading-menu-contenu,
@@ -480,6 +486,40 @@ button {
 .contact__phone {
   margin-bottom: 4.5rem; }
 
+.footer-alt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgba(206, 221, 233, 0.3); }
+  .footer-alt__title {
+    color: #2d231d;
+    margin-bottom: 2rem;
+    font-size: 3.2rem !important; }
+  .footer-alt__icon {
+    display: flex;
+    justify-content: center;
+    height: 3.5rem; }
+  .footer-alt p {
+    font-size: 3.2rem;
+    align-self: center;
+    vertical-align: center;
+    margin-left: 10px; }
+  .footer-alt__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem 2.6rem;
+    background-color: rgba(206, 221, 233, 0.3);
+    border-radius: 200px; }
+    .footer-alt__btn--logo {
+      display: block; }
+  .footer-alt .contact__mail,
+  .footer-alt .contact__phone {
+    display: flex;
+    align-items: center; }
+
 .navigation {
   display: flex;
   flex-direction: row;
@@ -535,6 +575,45 @@ button {
 .App {
   max-width: 1440px;
   margin: auto; }
+
+.objectif {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 5rem;
+  width: 100%;
+  margin-top: 10rem;
+  padding: 5rem 0rem 5rem 7.5rem; }
+  .objectif__objectif--title {
+    line-height: 2;
+    margin-bottom: 2rem; }
+  .objectif__objectif--text {
+    opacity: 0.6 !important;
+    line-height: 1.2; }
+
+.meditation__title {
+  margin-bottom: 2rem !important; }
+
+.meditation__down-arrow {
+  margin-bottom: 10rem; }
+
+.ateliers {
+  text-align: center;
+  margin-bottom: 10rem;
+  width: 100%; }
+  .ateliers__title {
+    margin-bottom: 5rem; }
+  .ateliers__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35rem 35rem;
+    gap: 5rem; }
+  .ateliers__item {
+    display: grid;
+    height: 100%;
+    border: solid red 2px; }
+    .ateliers__item--4 {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3; }
 
 .presentation {
   display: flex;

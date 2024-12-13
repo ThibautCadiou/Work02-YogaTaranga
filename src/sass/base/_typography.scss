@@ -27,6 +27,10 @@ body {
   font-size: 5.5rem;
   font-weight: 800;
   color: $footer-title;
+
+  &--upercase {
+    text-transform: uppercase;
+  }
 }
 
 .heading-infos {
@@ -36,6 +40,11 @@ body {
 
 .heading-sous-titre {
   font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.heading-sous-sous-titre {
+  font-size: 3.6rem;
   font-weight: 600;
 }
 
