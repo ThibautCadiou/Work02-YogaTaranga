@@ -1,6 +1,9 @@
 import Banner from '../components/Banner';
+import { seances } from '../data/seances';
+
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
+import { Seance } from '../components/Seance';
 
 export default function Yoga() {
   return (
@@ -31,14 +34,14 @@ export default function Yoga() {
 
         <div className='creneaux'>
           <h3 className='creneaux__title heading-infos'>
-            Réservez dès maintenant votre séance d&apos;essai gratuite!!! !
+            Réservez dès maintenant votre séance d&apos;essai gratuite !
           </h3>
           <div className='presentation__icon--down-arrow'>
             <img src='./icons/down-arrow.svg' alt='icone dune ligne de separation' />
           </div>
           <div className='container'>
-            <div className='seance'>seance a</div>
-            <div className='seance'>seance B</div>
+            <Seance seance={seances[0]} key={seances[0].id} />
+            <Seance seance={seances[1]} key={seances[1].id} />
           </div>
         </div>
       </main>

@@ -23,6 +23,14 @@
     &--line {
       margin-bottom: 1.5rem;
     }
+
+    &--down-arrow {
+      transition: all 0.3s;
+
+      &:hover {
+        transform: translateY(3px);
+      }
+    }
   }
 
   &__text {
@@ -54,8 +62,4 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 7rem;
   grid-template-rows: 70rem;
-}
-
-.seance {
-  border: solid 2px blue;
 }
