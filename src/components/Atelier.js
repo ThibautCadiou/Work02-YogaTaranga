@@ -18,5 +18,3 @@ export function Atelier({ atelier }) {
     </div>
   );
 }
-
-// 'ateliers__item ateliers__item--1'
