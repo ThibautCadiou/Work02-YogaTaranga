@@ -681,6 +681,53 @@ button {
   grid-row: 5/-1;
   grid-column: 1/-1; }
 
+.association__container {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem; }
+
+.association__text {
+  width: 50%;
+  height: 45rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .association__text--3 {
+    padding-left: 3rem; }
+
+.association__img {
+  width: 50%;
+  height: 45rem;
+  display: inline-block;
+  overflow: hidden; }
+  .association__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.intervenants__container {
+  display: flex;
+  gap: 9rem; }
+
+.intervenants__img {
+  width: 40%;
+  height: 69rem; }
+  .intervenants__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; }
+
+.intervenants__text {
+  font-size: 2.4rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .intervenants__text--4 {
+    margin-top: 1rem; }
+
 .footer-03 {
   background-color: rgba(250, 238, 224, 0.3);
   padding: 7rem;
@@ -701,6 +748,7 @@ button {
     gap: 5rem;
     padding: 0 6rem; }
   .stages__item {
+    text-decoration: none;
     display: grid;
     height: 100%;
     width: 55rem;
@@ -708,12 +756,12 @@ button {
     border: solid #d8e4ed 2px;
     border-radius: 0.5rem;
     grid-template-columns: 1fr [title-start] 1fr 1fr [title-end] 1fr;
+    grid-template-rows: 6rem 10rem 4rem 4rem auto 11rem;
     padding: 0 2.3rem 0 2.3rem;
     justify-items: left;
     align-items: center; }
 
 .stage {
-  color: black;
   width: 55rem; }
   .stage__month {
     font-size: 2.4rem;
@@ -742,31 +790,35 @@ button {
     grid-column: 1/-1; }
   .stage__dates {
     font-size: 2.4rem;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     grid-row: 3/4;
     grid-column: 1/-1; }
   .stage__localisation {
     font-size: 2.4rem;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
     grid-row: 4/5;
     grid-column: 1/-1; }
   .stage__duree {
     font-size: 2.4rem;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
+    font-style: italic;
+    opacity: 0.8;
     grid-row: 5/6;
     grid-column: 1/-1; }
   .stage__btn {
-    width: 100%;
     font-size: 2.4rem;
     font-weight: 400;
     text-transform: none;
     color: black;
-    padding: 0 1.6rem;
+    padding: 1.6rem 3.2rem;
     grid-row: 6/7;
-    grid-column: 2/4; }
+    grid-column: 1/-1;
+    align-self: baseline;
+    justify-self: left;
+    text-decoration: none; }
 
 .presentation {
   display: flex;

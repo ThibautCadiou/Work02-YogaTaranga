@@ -18,6 +18,7 @@ export default function App() {
           <Route path='/meditation' element={<Meditation />} />
           <Route path='/qui-sommes-nous' element={<QuiSommesNous />} />
           <Route path='/stages-et-retraites' element={<StageEtRetraite />} />
+          {/* <Route path='/stages-et-retraites/stage-001' element={<StageEtRetraite />} /> */}
           <Route path='*' element={<PageError />} />
         </Routes>
       </BrowserRouter>

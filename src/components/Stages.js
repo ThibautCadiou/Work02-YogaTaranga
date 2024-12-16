@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 export function Stage({ stage }) {
   return (
     <div className={`stages__item stages__item--${stage.id}`}>
@@ -15,7 +17,9 @@ export function Stage({ stage }) {
         <div className='localisation__lieu'>{stage.lieu}</div>
       </div>
       <p className='stage__duree'>{stage.duree}</p>
-      <p className='btn btn--white stage__btn'>Infos/inscription</p>
+      <NavLink href='/stage-001' className='btn btn--white stage__btn'>
+        Infos / Inscription
+      </NavLink>
     </div>
   );
 }

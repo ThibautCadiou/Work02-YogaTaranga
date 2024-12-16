@@ -30,7 +30,7 @@ export default function StageEtRetraite() {
           <img src='./icons/down-arrow.svg' alt='icone dune ligne de separation' />
         </div>
       </div>
-      <div className='stages heading-section heading-section--upercase'>
+      <div className='stages'>
         <div className='stages__container'>
           <Stage stage={stages[0]} />
         </div>
