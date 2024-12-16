@@ -50,7 +50,7 @@ export default function Meditation() {
       <div className='ateliers heading-section heading-section--upercase'>
         <h2 className='ateliers__title'>Les ateliers</h2>
         <div className='ateliers__container'>
-          <div className='ateliers__item ateliers__item--1'></div>
+          <div className='ateliers__item ateliers__item--1'>AAA</div>
           <div className='ateliers__item ateliers__item--2'></div>
           <div className='ateliers__item ateliers__item--3'></div>
           <div className='ateliers__item ateliers__item--4'></div>
