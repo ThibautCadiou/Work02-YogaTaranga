@@ -1,6 +1,8 @@
+import { Atelier } from '../components/Atelier';
 import Banner from '../components/Banner';
 import Footer02 from '../components/Footer02';
 import Navigation from '../components/Navigation';
+import { ateliers } from '../data/ateliers';
 
 export default function Meditation() {
   return (
@@ -50,10 +52,10 @@ export default function Meditation() {
       <div className='ateliers heading-section heading-section--upercase'>
         <h2 className='ateliers__title'>Les ateliers</h2>
         <div className='ateliers__container'>
-          <div className='ateliers__item ateliers__item--1'>AAA</div>
-          <div className='ateliers__item ateliers__item--2'></div>
-          <div className='ateliers__item ateliers__item--3'></div>
-          <div className='ateliers__item ateliers__item--4'></div>
+          <Atelier atelier={ateliers[0]} />
+          <Atelier atelier={ateliers[1]} />
+          <Atelier atelier={ateliers[2]} />
+          <Atelier atelier={ateliers[3]} />
         </div>
       </div>
 
