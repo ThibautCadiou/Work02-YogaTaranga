@@ -1,8 +1,9 @@
+import { NavLink } from 'react-router-dom';
 import { Tag } from './Tag';
 
 export function Article({ article }) {
   return (
-    <div className='article'>
+    <NavLink className='article' to={`/articles/${article.id}`}>
       <div className='article__top'>
         <img src={article.src} alt='article 1' className='article__img' />
         <div className='article__top-tag'>
@@ -25,6 +26,6 @@ export function Article({ article }) {
           ))}
         </ul>
       </div>
-    </div>
+    </NavLink>
   );
 }

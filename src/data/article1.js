@@ -6,6 +6,7 @@ export const articles = [
     text: 'Le voyage à la lumière de la lune',
     tags: ['Yoga', 'Bienfaits'],
     src: './img/home-07.jpg',
+    link: '/articles/1',
   },
   {
     id: 2,

@@ -6,7 +6,7 @@ export default function Navigation() {
       <nav className='navigation'>
         <img src='/img/Logo.svg' alt='test' className='navigation__icon' />
         <ul className='navigation__list heading-menu-contenu'>
-          <li className='navigation__item navigation__item--1'>
+          <li className='navigation__item navigation__item--1' id='head'>
             <NavLink to='/'>Accueil</NavLink>
           </li>
           <li className='navigation__item navigation__item--2'>

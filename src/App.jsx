@@ -6,11 +6,14 @@ import Meditation from './pages/Meditation';
 import QuiSommesNous from './pages/QuiSommesNous';
 import StageEtRetraite from './pages/StageEtRetraite';
 import PageError from './pages/PageError';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+        <ScrollToTop />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/yoga' element={<Yoga />} />

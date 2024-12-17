@@ -27,9 +27,10 @@ export default function Yoga() {
           <p className='presentation__text common-text'>
             Au delà d'une simple gymnastique, Yoga Taranga propose des cours de yoga à Saint-Lô
             basés sur des postures travaillées en conscience des sensations corporelles et du
-            souffle [...].
+            souffle.
+            {/* souffle [...]. */}
           </p>
-          <button className='presentation__button btn btn--white'>En savoir plus</button>
+          {/* <button className='presentation__button btn btn--white'>En savoir plus</button> VERS QUOI VA LE LIEN*/}
         </div>
 
         <div className='creneaux'>

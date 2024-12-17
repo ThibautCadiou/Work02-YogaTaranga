@@ -19,7 +19,7 @@ export default function Meditation() {
         <p className='presentation__text common-text'>Calme mental par le corps conscient </p>
       </div>
 
-      <div className='objectif'>
+      <div className='objectif u-margin-bottom-big'>
         <div className='objectif__objectif'>
           <h3 className='objectif__objectif--title heading-sous-titre'>Objectif</h3>
           <p className='objectif__objectif--text common-text'>

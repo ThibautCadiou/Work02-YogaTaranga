@@ -6,6 +6,7 @@ import { Article } from '../components/Article';
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { NavLink } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -22,9 +23,9 @@ export default function Home() {
           <div className='articles__top'>
             <h2 className='articles__title heading-section u-center-text'>Articles</h2>
 
-            <a className='articles__link' href='/test'>
+            <NavLink to='/articles' className='articles__link'>
               Voir plus !!! &rarr;
-            </a>
+            </NavLink>
           </div>
 
           <div className='articles__container'>

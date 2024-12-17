@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 export default function Decouvrir() {
   return (
     <section className='decouvrir  '>
@@ -15,7 +17,9 @@ export default function Decouvrir() {
 
           <p>Venez vite découvrir l’association !</p>
 
-          <button className='btn decouvrir__etiquette--btn '> Plus d'infos</button>
+          <NavLink to='/qui-sommes-nous' className='btn decouvrir__etiquette--btn '>
+            Plus d'infos
+          </NavLink>
         </div>
       </div>
     </section>
