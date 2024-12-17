@@ -6,7 +6,7 @@ export default function QuiSommesNous() {
   return (
     <div>
       <Navigation />
-      <Banner src='./img/stage-05.jpg' classType='banner__image--center' />
+      <Banner src='./img/stage-05.webp' classType='banner__image--center' />
 
       <div className='association  u-margin-bottom-big'>
         <h2 className='presentation__title heading-section u-center-text u-margin-bottom-big'>
@@ -35,7 +35,7 @@ export default function QuiSommesNous() {
             </div>
           </div>
           <div className='association__img'>
-            <img src='./img/stage-07.jpg' alt='' />
+            <img src='./img/stage-07.webp' alt='' />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function QuiSommesNous() {
         </h2>
         <div className='intervenants__container'>
           <div className='intervenants__img'>
-            <img src='./img/stage-06.jpg' alt='' />
+            <img src='./img/stage-06.webp' alt='' />
           </div>
           <div className='intervenants__text'>
             <h3 className='intervenants__subtitle'>Antoine</h3>

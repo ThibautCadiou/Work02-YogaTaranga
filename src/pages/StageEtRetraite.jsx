@@ -7,7 +7,7 @@ export default function StageEtRetraite() {
   return (
     <div>
       <Navigation />
-      <Banner src='./img/stage-01.jpg' classType='banner__image--other-01' />
+      <Banner src='./img/stage-01.webp' classType='banner__image--other-01' />
       <div className='presentation'>
         <h2 className='presentation__title heading-titre'>Stages & retraites</h2>
 

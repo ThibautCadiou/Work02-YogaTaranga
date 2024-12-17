@@ -6,7 +6,7 @@ export default function Header() {
         <h2 className='header__main-subtitle'>Cours de Yoga & méditation à Saint-Lô</h2>
       </div>
 
-      <img src='./img/clip-path-and-wave.svg' alt='vague de décoration' className='wave' />
+      <img src='./img/wavywave.png' alt='vague de décoration' className='wave' />
     </div>
   );
 }

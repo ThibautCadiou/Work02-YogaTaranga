@@ -427,7 +427,7 @@ button {
 
 .decouvrir__container {
   position: relative;
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../public/img/home-01.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../public/img/home-01.webp");
   background-size: cover;
   background-position: center top;
   width: 100%;

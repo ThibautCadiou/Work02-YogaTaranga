@@ -8,7 +8,7 @@ export default function Meditation() {
   return (
     <div>
       <Navigation />
-      <Banner src='./img/meditation-01.jpg' classType='banner__image--top' />
+      <Banner src='./img/meditation-01.webp' classType='banner__image--top' />
 
       <div className='presentation'>
         <h2 className='presentation__title heading-titre'>Méditation</h2>

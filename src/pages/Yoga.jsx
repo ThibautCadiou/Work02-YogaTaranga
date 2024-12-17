@@ -11,7 +11,7 @@ export default function Yoga() {
       <main className='yoga'>
         <Navigation />
 
-        <Banner src='./img/yoga-01.jpg' classType='banner__image--center' />
+        <Banner src='./img/yoga-01.webp' classType='banner__image--center' />
 
         <div className='presentation'>
           <h2 className='presentation__title heading-titre'>Yoga</h2>
