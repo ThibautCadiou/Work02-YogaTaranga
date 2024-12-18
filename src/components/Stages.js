@@ -17,7 +17,7 @@ export function Stage({ stage }) {
         <div className='localisation__lieu'>{stage.lieu}</div>
       </div>
       <p className='stage__duree'>{stage.duree}</p>
-      <NavLink to={`/stages/${stage.id}`} className='btn btn--white stage__btn'>
+      <NavLink to={`/stages-et-retraites/stage-${stage.id}`} className='btn btn--white stage__btn'>
         Infos / Inscription
       </NavLink>
     </div>

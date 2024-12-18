@@ -3,7 +3,7 @@ export default function Banner(props) {
     <div className='banner'>
       <img
         src={props.src}
-        alt='bannière de la page'
+        alt='bannière de la page ...'
         className={`banner__image ${props.classType}`}
       />
     </div>

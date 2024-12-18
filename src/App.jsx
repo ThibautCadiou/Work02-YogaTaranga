@@ -7,6 +7,7 @@ import QuiSommesNous from './pages/QuiSommesNous';
 import StageEtRetraite from './pages/StageEtRetraite';
 import PageError from './pages/PageError';
 import ScrollToTop from './components/ScrollToTop';
+import Stage01 from './pages/Stage01';
 
 export default function App() {
   return (
@@ -21,7 +22,7 @@ export default function App() {
           <Route path='/meditation' element={<Meditation />} />
           <Route path='/qui-sommes-nous' element={<QuiSommesNous />} />
           <Route path='/stages-et-retraites' element={<StageEtRetraite />} />
-          {/* <Route path='/stages-et-retraites/stage-001' element={<StageEtRetraite />} /> */}
+          <Route path='/stages-et-retraites/stage-1' element={<Stage01 />} />
           <Route path='*' element={<PageError />} />
         </Routes>
       </BrowserRouter>
