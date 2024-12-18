@@ -40,9 +40,9 @@ export default function Stage01() {
         </div>
 
         <section className='bienfaits u-margin-bottom-big'>
-          <h3 className='heading-sous-titre u-margin-bottom-small'>Bienfaits</h3>
+          <h3 className='heading-sous-titre u-margin-bottom-medium'>Bienfaits</h3>
           <ul className='bienfaits__list common-text'>
-            <li bienfaits__list--element>
+            <li>
               Souplesse, tonus physique, profonde détente, amélioration du bien-être, positivité
             </li>
             <li>Réduction du stress, gestion de la douleur, effet régénérant sur le corps</li>
@@ -130,12 +130,16 @@ export default function Stage01() {
         </section>
 
         <section className='le-lieu u-margin-bottom-big'>
-          <h2 className='presentation__title heading-titre'>Le lieu</h2>
-          <p>Un lien emprunt d’histoire, chaleureux et accueillant pour nos groupes.</p>
+          <h2 className='presentation__title heading-section color-black u-margin-bottom-small'>
+            Le lieu
+          </h2>
+          <p className='common-text u-margin-bottom-medium'>
+            Un lien emprunt d’histoire, chaleureux et accueillant pour nos groupes.
+          </p>
 
-          <div className='caroussel_container'>
-            <img src='' alt='' />
-            <div className='barre_bubulle'></div>
+          <div className='caroussel__container'>
+            <img src='' alt='' className='caroussel__images' />
+            <div className='caroussel__bubulle'></div>
           </div>
         </section>
 

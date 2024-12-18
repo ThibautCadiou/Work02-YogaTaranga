@@ -826,6 +826,28 @@ button {
     font-size: 2.4rem;
     font-weight: 600; }
 
+.le-lieu {
+  line-height: 1.2; }
+
+.caroussel__container {
+  position: relative;
+  border: solid 2px red;
+  height: 50rem; }
+
+.caroussel__images {
+  border: solid 2px blue;
+  width: 100%;
+  height: 45rem; }
+
+.caroussel__bubulle {
+  position: absolute;
+  bottom: 1rem;
+  border: solid 2px purple;
+  height: 3rem;
+  width: 10rem;
+  left: 50%;
+  transform: translateX(-50%); }
+
 .footer-03 {
   background-color: rgba(250, 238, 224, 0.3);
   padding: 7rem;
